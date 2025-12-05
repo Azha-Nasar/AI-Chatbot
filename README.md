@@ -354,9 +354,8 @@ Contributions are welcome! Please follow these steps:
 - Update documentation
 - Keep commits atomic and descriptive
 
-## 👥 Authors
+## 👥 Author
 
-**Your Name**
 Azha Nasar
 
 ## 📧 Contact
