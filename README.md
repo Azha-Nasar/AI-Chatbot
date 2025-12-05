@@ -387,4 +387,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If you found this project helpful, please give it a star!**
 
-**Made with ❤️ and PyTorch**
+**Made with ❤️ by Azha Nasar**
