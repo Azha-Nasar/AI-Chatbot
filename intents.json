@@ -1,0 +1,67 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening",
+        "hi", "Hey there", "What's up?", "Hi there", "Greetings"
+      ],
+      "responses": [
+        "Hello!", "Hi there!", "Greetings!", "How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "See you later", "goodbye", "Catch you later", "Talk soon",
+        "Later", "I'm leaving", "See ya", "Bye for now", "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye!", "Have a great day!", "Talk to you later!", "See you next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot", "Much appreciated",
+        "I appreciate it", "Thanks so much", "Many thanks"
+      ],
+      "responses": [
+        "You're welcome!", "Glad I could help!", "Anytime!", "No problem at all!"
+      ]
+    },
+    {
+      "tag": "balance",
+      "patterns": [
+        "Check my balance", "What's my account balance?", "Balance inquiry",
+        "Show my balance", "How much money do I have?", "What is my balance?",
+        "Tell me my account balance", "View balance"
+      ],
+      "responses": [
+        "Your current balance is $4,200.", "You have $4,200 in your account.",
+        "The available balance in your account is $4,200."
+      ]
+    },
+    {
+      "tag": "transfer",
+      "patterns": [
+        "Transfer money", "Send money to John", "Make a transfer", "I want to transfer funds",
+        "Can you transfer money?", "Initiate a transfer", "Send cash", "Wire some money"
+      ],
+      "responses": [
+        "Sure, I can help with that. How much would you like to transfer?",
+        "Let's do a transfer. Please tell me the amount and recipient.",
+        "I’m ready to make the transfer. Who should I send it to and how much?"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Can you rephrase that?",
+        "Sorry, I didn't catch that. Try asking in a different way.",
+        "I'm still learning. Could you say that differently?"
+      ]
+    }
+  ]
+}
